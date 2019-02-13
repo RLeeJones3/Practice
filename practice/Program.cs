@@ -21,7 +21,7 @@ namespace practice
             }
             else
             {
-                Console.WriteLine("Incorrect ID or Pin!");
+                Console.WriteLine("Incorrect UserID or Password!");
             }
         }
     }
