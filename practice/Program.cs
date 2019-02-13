@@ -6,14 +6,14 @@ namespace practice
     {
         static void Main(string[] args)
         {
-            int password = 123;
+            string password = "10@G798H4";
             string userID = "BDowds";
 
             Console.WriteLine("Please enter your user ID:");
             string userIdInput = Console.ReadLine();
 
             Console.WriteLine("Please enter your password:");
-            int passwordInput = int.Parse(Console.ReadLine());
+            string passwordInput = Console.ReadLine();
 
             if (userIdInput == userID && passwordInput == password)
             {
